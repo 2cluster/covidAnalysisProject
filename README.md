@@ -1,21 +1,21 @@
 #################### INSTALL PYTHON ENV #################
 
-# CREATE FOLDER
+#### CREATE FOLDER
 mkdir ~/covid
 cd ~/covid
 
-# CREATE VIRTUAL ENV
+#### CREATE VIRTUAL ENV
 virtualenv covid_env
 
-# ACTIVATE ENV
+#### ACTIVATE ENV
 source covid_env/bin/activate
 
-# INCLUDE DATASETS
+#### INCLUDE DATASETS
 mkdir data
 testset.csv + trainset.csv >> ./data/
 
-# INSTALL PACKAGES
+#### INSTALL PACKAGES
 pip install jupyter
 
-# START NOTEBOOK
+#### START NOTEBOOK
 jupyter notebook
