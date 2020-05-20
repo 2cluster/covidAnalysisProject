@@ -1,4 +1,4 @@
-#################### INSTALL PYTHON ENV #################
+# INSTALL PYTHON ENV
 
 #### CREATE FOLDER
 mkdir ~/covid
@@ -18,4 +18,8 @@ testset.csv + trainset.csv >> ./data/
 pip install jupyter
 
 #### START NOTEBOOK
+<<<<<<< HEAD
 jupyter notebook
+=======
+jupyter notebook
+>>>>>>> c78282da8ad40a67083a69ebd5af99639f1f9807
